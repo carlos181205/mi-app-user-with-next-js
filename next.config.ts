@@ -4,10 +4,6 @@ import type { NextConfig } from "next";
 
 
 const nextConfig: NextConfig = {
-  // Asegura que Node.js esté usando valores estándar de NODE_ENV
-  // Esto resuelve la advertencia "non-standard NODE_ENV"
-  swcMinify: true,
-  
   async rewrites() {
     const userApitarget =
       process.env.USERS_API_TARGET ?? 'http://localhost:3000'
