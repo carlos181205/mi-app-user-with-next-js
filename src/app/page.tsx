@@ -1,3 +1,5 @@
+'use client';
+
 import { UsersPage } from "@/components/users/UsersPage";
 
 // Deshabilita la generación estática para esta página
