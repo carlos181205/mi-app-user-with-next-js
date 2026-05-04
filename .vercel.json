@@ -1,0 +1,5 @@
+{
+  "env": {
+    "USERS_API_TARGET": "@users_api_target"
+  }
+}
